@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="30272SashaGoldshtein.RentaHome" Publisher="CN=1EBF4D75-011E-4CBB-ABF0-A322B8D3ADA8" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Rent a Home</DisplayName>
+    <PublisherDisplayName>Sasha Goldshtein</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="RentAHome.Win8.App">
+      <VisualElements DisplayName="Rent a Home" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Sample app for Windows Azure Conference 2012 -- demonstrating Windows Azure Mobile Services." ForegroundText="light" BackgroundColor="#464646" ToastCapable="true">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#00A9EC" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_add_apartment"
+        android:title="Add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="ifRoom" />
+     <item android:id="@+id/menu_refresh"
+        android:title="Refresh"
+        android:icon="@android:drawable/ic_menu_view"
+        android:showAsAction="ifRoom" />
+     <item android:id="@+id/menu_map"
+        android:title="Map"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:showAsAction="ifRoom" />
+     <item android:id="@+id/menu_login"
+         android:title="Login"
+         android:icon="@android:drawable/ic_menu_info_details"
+         android:showAsAction="ifRoom|withText" />
+</menu>
