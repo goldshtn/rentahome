@@ -48,8 +48,8 @@
     [self.refreshControl beginRefreshing];
     [self.apartmentService refreshDataOnSuccess:^{
         [self.tableView reloadData];
+        [self.refreshControl endRefreshing];
     }];
-    [self.refreshControl endRefreshing];
 }
 
 - (IBAction)showActions:(id)sender {
